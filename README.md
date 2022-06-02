@@ -1,8 +1,20 @@
 # Script Collection
 Automate my repetitive tasks
 
-### Bulk Downloader
+## Git
 
-`./bulk-downloader.sh` ./files.json
+**[Git Statistic](https://github.com/dedenbangkit/script-collection/blob/main/git-cli/git-stat.sh)**
 
-First array in the [files.json](https://github.com/dedenbangkit/script-collection/blob/main/bulk-downloader/files.json) is the destination folder.
+```bash
+./git-stat.sh
+```
+
+## Misc
+
+**[Bulk Downloader](https://github.com/dedenbangkit/script-collection/blob/main/bulk-downloader.sh)**
+
+```bash
+./bulk-downloader.sh ./files.json
+```
+First array in the [files.json](https://github.com/dedenbangkit/script-collection/blob/main/misc/bulk-downloader/files.json) is the destination folder.
+
