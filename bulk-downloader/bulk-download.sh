@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ndir=$(jq '.[0]' < files.json \
+ndir=$(jq '.[0]' < "$@" \
     | sed 's/ /_/g' \
     | sed 's/"//g' \
     | tr '[:upper:]' '[:lower:]')
