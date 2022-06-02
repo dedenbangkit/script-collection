@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 contributor=$(git log --format='%aN' \
     | sort -u \
     | pick)
